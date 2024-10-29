@@ -12,7 +12,6 @@ docker desktopを起動しておく
 
 ③コンテナ起動
 
-```docker container run --name modern-dev-backend-app -d -p 8080:80 httpd```
 ```docker run -d -p 8080:8080 --name backend-container modern-dev-backend-app```
 
 その他
